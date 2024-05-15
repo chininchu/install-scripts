@@ -20,7 +20,8 @@ This PowerShell script automates the installation of several common applications
 1. **Clone/Download:**
    * **Git (Recommended):** If you're familiar with Git, clone this repository:
       ```bash
-      git clone [https://github.com/chininchu/install-scripts.git](https://github.com/chininchu/install-scripts.git)
+      https://github.com/chininchu/install-scripts.git
+   
       ```
    * **Direct Download:** Otherwise, download the `application-scripts.ps1` file directly from the repository.
 
