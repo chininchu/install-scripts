@@ -39,7 +39,7 @@ This PowerShell script automates the installation of several common applications
     * Run the following command to simulate the installation without actually installing anything:
 
       ```powershell
-      powershell -ExecutionPolicy Bypass -Command "& { (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/chininchu/install-scripts/main/application-scripts.ps1') } -WhatIf"
+      powershell -ExecutionPolicy Bypass -Command "& { (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/chininchu/install-scripts/main/run_scripts.ps1') } -WhatIf"
 
       ```
 
