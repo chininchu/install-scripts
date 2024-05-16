@@ -42,7 +42,7 @@ This PowerShell script automates the setup of a Windows development environment 
     * To simulate the installation process without actually installing anything, you can run the following command in PowerShell (as administrator):
 
       ```powershell
-      powershell -ExecutionPolicy Bypass -Command "& { (New-Object System.Net.WebClient).DownloadString('[https://raw.githubusercontent.com/chininchu/install-scripts/main/application-scripts.ps1](https://raw.githubusercontent.com/chininchu/install-scripts/main/application-scripts.ps1)') } -WhatIf"
+      powershell -ExecutionPolicy Bypass -Command "& { (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/chininchu/install-scripts/main/application-scripts.ps1') } -WhatIf"
       ```
 
 ## Important Notes
