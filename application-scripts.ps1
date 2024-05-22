@@ -332,3 +332,4 @@ choco install zoom --version 6.0.4.38135 -y
 choco install slack --version 4.38.125 -y
 choco install googlechrome --version 125.0.6422.76 -y
 choco install temurin17 --version 17.0.10 -y
+npm install @salesforce/cli --global
