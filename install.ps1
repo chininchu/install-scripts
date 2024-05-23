@@ -27,7 +27,7 @@ if (-Not (Get-Command choco -ErrorAction SilentlyContinue)) {
 choco install googlechrome -y
 choco install temurin17 -y
 choco install maven -y
-choco install tomcat --version=9 -y
+choco install tomcat
 choco install mysql --version=8.0 -y
 choco install nodejs -y
 choco install vscode -y
