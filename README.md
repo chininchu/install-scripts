@@ -35,7 +35,7 @@ This PowerShell script automates the setup of a Windows development environment 
     * Run the following command:
 
       ```powershell
-         Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/chininchu/install-scripts/main/application-scripts.ps1/'))
+         Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/chininchu/install-scripts/main/application-scripts.ps1'))
       ```
 
 
