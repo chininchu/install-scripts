@@ -205,13 +205,15 @@ if ($codePath) {
 }
 
 # Validate installations (improved error handling)
-$errors = @()
+$errors = @() # Initialize an array to store error messages
 $checkCommands = @("choco", "node", "java", "mvn", "tomcat", "mysql", "sfdx")
 foreach ($cmd in $checkCommands) {
     try {
         & $cmd --version  # Use try-catch for better error handling
     } catch {
-        $errors += "$cmd not found or not working."
+        # Use a different variable name to avoid conflict with the built-in $error variable
+        $errorMessage = $_.Exception.Message
+        $errors += "$cmd not found or not working: $errorMessage" 
     }
 }
 
